@@ -163,7 +163,7 @@ API ini mendukung dokumentasi otomatis menggunakan Swagger/OpenAPI. Setelah apli
 
 ## Kontribusi 🤝
 
-Kami menyambut kontribusi dari siapa saja. Jika Anda menemukan bug atau memiliki saran untuk fitur baru, silakan buat *issue* atau kirim *pull request*.
+Saya menyambut kontribusi dari siapa saja. Jika Anda menemukan bug atau memiliki saran untuk fitur baru, silakan buat *issue* atau kirim *pull request*.
 
 ### Langkah Kontribusi
 
