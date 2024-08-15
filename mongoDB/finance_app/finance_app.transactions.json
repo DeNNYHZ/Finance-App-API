@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "66be119ea790579800d81ae5"
+  },
+  "name": "Gaji",
+  "description": "Pendapatan bulanan dari pekerjaan utama",
+  "type": "income"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81ae6"
+  },
+  "name": "Tunjangan",
+  "description": "Tunjangan tambahan dari pekerjaan",
+  "type": "income"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81ae7"
+  },
+  "name": "Bonus",
+  "description": "Bonus tahunan atau insentif lainnya",
+  "type": "income"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81ae8"
+  },
+  "name": "Sewa Kost",
+  "description": "Biaya sewa kost bulanan",
+  "type": "expense"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81ae9"
+  },
+  "name": "Makan",
+  "description": "Biaya makan sehari-hari",
+  "type": "expense"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81aea"
+  },
+  "name": "Pakaian",
+  "description": "Biaya pembelian pakaian",
+  "type": "expense"
+},
+{
+  "_id": {
+    "$oid": "66be119ea790579800d81aeb"
+  },
+  "name": "Nonton Bioskop",
+  "description": "Biaya menonton film di bioskop",
+  "type": "expense"
+}]

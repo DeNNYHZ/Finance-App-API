@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "66be0df02af56b72ef577cfe"
+  },
+  "username": "user1",
+  "password": "hashed_password_1"
+},
+{
+  "_id": {
+    "$oid": "66be0df02af56b72ef577cff"
+  },
+  "username": "user2",
+  "password": "hashed_password_2"
+},
+{
+  "_id": {
+    "$oid": "66be0df72af56b72ef577d01"
+  },
+  "username": "user3",
+  "password": "hashed_password_3"
+},
+{
+  "_id": {
+    "$oid": "66be0df72af56b72ef577d02"
+  },
+  "username": "user4",
+  "password": "hashed_password_4"
+}]

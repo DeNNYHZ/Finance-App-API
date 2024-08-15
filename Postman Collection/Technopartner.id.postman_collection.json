@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "d5b74b06-69e5-4ab0-a978-11f2f68dc40c",
+		"name": "Technopartner.id",
+		"description": "Postman Collection from Finance-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37702958"
+	},
+	"item": [
+		{
+			"name": "Create Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"income\",\r\n  \"category_id\": \"66be0b642af56b72ef577cdf\", \r\n  \"amount\": 5000000,\r\n  \"description\": \"Gaji bulan Agustus\",\r\n  \"date\": \"2024-08-15T00:00:00Z\",\r\n  \"user_id\": \"66be0df02af56b72ef577cfe\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Investasi\",\r\n  \"description\": \"Pendapatan dari investasi\",\r\n  \"type\": \"income\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Category",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Investasi Saham\",\r\n  \"description\": \"Pendapatan dari investasi saham\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categories/66be0b642af56b72ef577ce1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"66be0b642af56b72ef577ce1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categories/66be0b642af56b72ef577ce1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"66be0b642af56b72ef577ce1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"expense\",\r\n  \"category_id\": \"66be0b642af56b72ef577ce3\", \r\n  \"amount\": 250000,\r\n  \"description\": \"Makan malam di restoran\",\r\n  \"date\": \"2024-08-15T19:00:00Z\",\r\n  \"user_id\": \"66be0df02af56b72ef577cfe\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Transactions",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Filtered Get Transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/transactions?start_date=2024-08-01&end_date=2024-08-15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2024-08-01"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-08-15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Transaction",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Makan malam bersama teman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions/66be119ea790579800d81ae9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions",
+						"66be119ea790579800d81ae9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Transaction",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/transactions/66be119ea790579800d81ae9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions",
+						"66be119ea790579800d81ae9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Current Balance",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
