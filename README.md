@@ -38,7 +38,7 @@ API sederhana untuk mengelola keuangan pribadi Anda. Catat pemasukan dan pengelu
 
 1. **Clone Repositori:**
     ```bash
-    git clone https://github.com/username/finance_app.git
+    git clone https://github.com/dennyhz/finance_app.git
     cd finance_app
     ```
 
