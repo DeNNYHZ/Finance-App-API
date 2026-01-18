@@ -161,19 +161,3 @@ API ini mendukung dokumentasi otomatis menggunakan Swagger/OpenAPI. Setelah apli
     ]
     ```
 
-## Kontribusi 🤝
-
-Saya menyambut kontribusi dari siapa saja. Jika Anda menemukan bug atau memiliki saran untuk fitur baru, silakan buat *issue* atau kirim *pull request*.
-
-### Langkah Kontribusi
-
-1. Fork repositori ini.
-2. Buat *feature branch* (`git checkout -b feature/feature_name`).
-3. Commit perubahan Anda (`git commit -m 'Add some feature'`).
-4. Push ke branch (`git push origin feature/feature_name`).
-5. Buat *pull request*.
-
-## Lisensi 📜
-
-Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
-
