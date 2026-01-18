@@ -79,7 +79,7 @@ finance_app/
 ├── utils/              # Fungsi utilitas dan helper
 ├── main.go             # Entry point aplikasi
 └── .env.example        # Contoh file environment variables
-
+```
 ## Dokumentasi API 📄
 
 API ini mendukung dokumentasi otomatis menggunakan Swagger/OpenAPI. Setelah aplikasi berjalan, Anda dapat mengakses dokumentasi API di `http://localhost:8080/swagger/index.html`.
@@ -176,3 +176,4 @@ Saya menyambut kontribusi dari siapa saja. Jika Anda menemukan bug atau memiliki
 ## Lisensi 📜
 
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
+
